@@ -92,18 +92,26 @@
     </div>
     <br>
     <div class="form-floating">
-      <input type="text" class="form-control" id="text" placeholder="Nama">
+      <input type="text" class="form-control" id="nama" placeholder="Nama">
       <label for="floatingInput">Nama</label>
+    </div>
+    <div class="form-floating">
+      <input type="text" class="form-control" id="nim" placeholder="NIM">
+      <label for="floatingInput">NIM</label>
     </div>
     <div class="form-floating">
       <input type="email" class="form-control" id="email" placeholder="name@example.com">
       <label for="floatingInput">Alamat Email</label>
     </div>
+    <br>
     <div class="form-floating">
       <input type="password" class="form-control" id="password" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
-
+    <div class="form-floating">
+      <input type="password" class="form-control" id="konfirmasiPassword" placeholder="Password">
+      <label for="floatingPassword">Konfirmasi Password</label>
+    </div>
     <button class="w-100 btn btn-lg btn-dark" type="submit">Tambah</button>
   </form>
 </main>
